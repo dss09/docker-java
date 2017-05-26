@@ -1,4 +1,4 @@
-FROM phusion/baseimage:0.9.19
+FROM phusion/baseimage:0.9.22
 MAINTAINER Dmitri Sh <smalllark@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
