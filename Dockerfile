@@ -7,6 +7,7 @@ ENV DEBIAN_FRONTEND noninteractive
 ENV LANG en_US.UTF-8
 ENV LC_ALL en_US.UTF-8
 RUN echo LANG=\"en_US.UTF-8\" > /etc/default/locale
+ENV JAVA_VERSION_UPDATE 8.151
 
 # Install Java.
 RUN \
